@@ -163,7 +163,6 @@ a{
     margin: 0 auto;
     font-size: 19px;
     padding-bottom: 20px;
-
 }
 
 .contato{
@@ -252,6 +251,9 @@ footer > p{
         text-decoration: none;
     }
 
+    .wallpaper-sobre p:nth-of-type(2){
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1200px){
