@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #808080;
+}
+
+.container{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2%;
+    position: relative;
+}
+
+.flexivel{
+    display: flex;
+}
+
+.numero-header{
+    display: inline-block;
+    background-color: #0866fc;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 10px;
+}.numero-header > p{color: #fff;}
+
+a{
+    text-decoration: none;
+    transition: 1s;
+}a:hover{
+    color: #00031f;
+}
+
+.clear{
+    clear: both;
+}
+/*classes padrão*/
+
+
+.header{
+    border-bottom: #ccc 1px solid;
+    position: relative;
+    height: 90px;
+}
+
+.header img{
+    width: 180px;
+    height: 38px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contato-header{
+  position: absolute;
+  left: 400px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.mobile{
+    display: none;
+}
+
+.desktop{
+   position: absolute;
+   right: 2%;
+   top: 50%;
+   transform: translateY(-50%);
+
+}
+
+.desktop li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.banner{
+    padding: 0;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #7344d7;
+}
+
+.banner img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.titulo-solucao{
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #0866fc;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}.titulo-solucao > p{color: #fff;}
+
+.wraper-solucao{
+    padding: 2%;
+}
+
+.wraper-solucao > div{
+    margin: 60px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.wraper-solucao > div > img{
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+
+.projetos{
+
+}
+
+.titulo-projetos{
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #0866fc;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}.titulo-projetos > p{color: #fff;}
+
+.projetos > img{
+    width: 70%;
+    display: block;
+    margin: 60px auto;
+}
+
+.wallpaper-sobre{
+    width: 100%;
+    padding: 40px;
+}
+
+.wallpaper-sobre p:nth-of-type(1){
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+}
+
+.wallpaper-sobre p:nth-of-type(2){
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 400px;
+    margin: 0 auto;
+    font-size: 19px;
+    padding-bottom: 20px;
+
+}
+
+.contato{
+    background-color: #5d38ac;
+}
+
+.meios{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.meio{
+    width: calc(100% / 3);
+    cursor: pointer;
+    text-align: center;
+}
+
+.meio  a{
+    display: inline-block;
+    padding: 0 10px;
+    color: rgb(223, 221, 221);
+    text-decoration: none;
+}.meio i{color: rgb(223, 221, 221);}
+
+.contato > p{
+    text-align: center;
+    color: #fff;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 19px; 
+    padding: 40px 0;
+}
+
+footer{
+    background-color: #7344d7;
+    padding: 0;
+}
+
+footer > p{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (max-width: 800px){
+    header{
+        position: static;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+        z-index: 999;
+        width: 100%;
+    }
+
+    .mobile i{
+        position: absolute;
+        right: 2%;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .mobile ul{
+        position: absolute;
+        top:90px;
+        left: 0;
+        width: 100%;
+        display: none;
+    }
+
+    .mobile li{
+        width: 100%;
+        background-color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .mobile a{
+        display: block;
+        text-decoration: none;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    .contato-header{
+        display: none;
+    }
+}
