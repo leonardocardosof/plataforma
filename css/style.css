@@ -20,7 +20,7 @@
 
 .numero-header{
     display: inline-block;
-    background-color: #0866fc;
+    background-color: #ff6600;
     color: rgb(255, 255, 255);
     padding: 10px 30px;
     border-radius: 10px;
@@ -47,7 +47,6 @@ a{
 
 .header img{
     width: 180px;
-    height: 38px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -96,7 +95,7 @@ a{
 .titulo-solucao{
     display: inline-block;
     margin: 0 auto;
-    background-color: #0866fc;
+    background-color: #ff6600;
     color: rgb(255, 255, 255);
     padding: 10px 30px;
     border-radius: 10px;
@@ -128,7 +127,7 @@ a{
 .titulo-projetos{
     display: inline-block;
     margin: 0 auto;
-    background-color: #0866fc;
+    background-color: #ff6600;
     color: rgb(255, 255, 255);
     padding: 10px 30px;
     border-radius: 10px;
@@ -171,7 +170,7 @@ a{
 }
 
 .contato{
-    background-color: #5d38ac;
+    background-color: #f76d12;
 }
 
 .meios{
@@ -202,7 +201,7 @@ a{
 }
 
 footer{
-    background-color: #7344d7;
+    background-color: #f17a2b;
     padding: 0;
 }
 
